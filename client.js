@@ -25,7 +25,7 @@ loginButton.addEventListener('click', function(){
 });
 
 //var connection = new WebSocket('ws://'+document.domain+':8080');
-var connection = new WebSocket('ws://192.168.139.70:8080');
+var connection = new WebSocket('ws://服务器ip:8080');
 /*
 if (connection.readyState===1) {
 	connection.send();
